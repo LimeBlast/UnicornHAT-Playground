@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ws2812 (0.0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ws2812
+
+BUNDLED WITH
+   1.11.2

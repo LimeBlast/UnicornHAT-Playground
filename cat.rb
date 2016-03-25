@@ -1,4 +1,8 @@
 #!/usr/bin/env ruby
+require 'rubygems'
+require 'bundler/setup'
+
+# require your gems as usual
 require 'ws2812'
 
 def display(array, colours)
