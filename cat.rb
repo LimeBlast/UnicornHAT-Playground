@@ -67,7 +67,7 @@ cat = [
 
 colours = [
   Ws2812::Color.new(0, 0, 0),
-  Ws2812::Color.new(214, 135, 23)
+  Ws2812::Color.new(0, 0, 255)
 ]
 
 puts "Hit ^C to terminate"

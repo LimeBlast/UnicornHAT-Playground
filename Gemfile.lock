@@ -1,12 +1,18 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    chroma (0.0.1)
+    color (1.8)
+    color-generator (0.0.4)
     ws2812 (0.0.5)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  chroma
+  color
+  color-generator
   ws2812
 
 BUNDLED WITH
