@@ -25,5 +25,5 @@ begin
     end
   end
 rescue Interrupt
-  # ignored
+  hat.clear
 end
