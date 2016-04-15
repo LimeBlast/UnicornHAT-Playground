@@ -77,8 +77,7 @@ begin
     display frame, colours
     sleep 0.1
   end
-rescue Interrupt
-# ignored
+rescue SignalException => e
+  $hat.clear
+  puts "received Exception #{e}"
 end
-
-$hat.clear

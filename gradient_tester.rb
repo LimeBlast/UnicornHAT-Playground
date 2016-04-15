@@ -25,6 +25,7 @@ begin
       end
     end
   end
-rescue Interrupt
-  hat.clear
+rescue SignalException => e
+  $hat.clear
+  puts "received Exception #{e}"
 end

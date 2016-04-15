@@ -36,6 +36,7 @@ begin
     display Skull.call
     sleep 1.5
   end
-rescue Interrupt
+rescue SignalException => e
   $hat.clear
+  puts "received Exception #{e}"
 end

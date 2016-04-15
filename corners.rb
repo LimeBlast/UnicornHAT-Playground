@@ -28,9 +28,7 @@ begin
     hat.brightness = brightness += 1
     hat.show
   end
-rescue Interrupt
+rescue SignalException => e
+  hat.clear
+  puts "received Exception #{e}"
 end
-
-# Clear the display
-hat.clear
-hat.show
